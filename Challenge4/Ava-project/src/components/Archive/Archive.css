@@ -1,0 +1,61 @@
+.table-style {
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.icons-style {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.download-icon-style {
+    color: #969696;
+
+    &:hover {
+        color: #00B3A1;
+    }
+}
+
+.draft-icon-style {
+    color: #969696;
+
+    &:hover {
+        color: #00B3A1;
+    }
+}
+
+.copy-icon-style {
+    color: #969696;
+
+    &:hover {
+        color: #00B3A1;
+    }
+}
+
+.delete-icon-style {
+    color: #969696;
+
+    &:hover {
+        color: #fff;
+        background-color: #FF1654;
+        border-radius: 100px;
+        padding: 2px 5px;
+    }
+}
+
+.truncated-link {
+    display: flex;
+    width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* text-decoration: none; */
+    color: #118AD3;
+    ;
+  }
