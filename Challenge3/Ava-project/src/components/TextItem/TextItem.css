@@ -1,0 +1,12 @@
+.icons-style {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-tab {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
